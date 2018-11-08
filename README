@@ -1,0 +1,8 @@
+For this program, I decided to utilize an interface instead of superclasses
+because I believed it would be best to have the Notifier interface keep track
+of each function. This notifier keeps track of the generateID, setAlarm, and
+doAlarm functions, which all three classes utilize. In the tester class, it
+creates one object of each type and keeps the program running until it has
+reached 100000000 milliseconds. Each class can also do their own object
+specific function.
+
